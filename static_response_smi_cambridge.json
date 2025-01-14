@@ -1,0 +1,365 @@
+{
+  "total": 15,
+  "staticPOIData": [
+    {
+      "location": {
+        "point": {
+          "coordinates": {
+            "coordinateSystem": "WGS84",
+            "latitude": 52.20098,
+            "longitude": 0.13055
+          }
+        }
+      },
+      "type": "carPark",
+      "capacity": [],
+      "openingHours": [],
+      "tariff": [],
+      "payablePerApp": false,
+      "timeTransfer": false,
+      "withParcoServiceFee": true,
+      "waitingPeriod": 0,
+      "operationalStatus": false,
+      "publicTransportStops": 0,
+      "pgsID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2",
+      "objectID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2_efb3ca43-7c27-40e9-b1f4-2ddbdd60a600",
+      "name": "Queen Anne"
+    },
+    {
+      "location": {
+        "point": {
+          "coordinates": {
+            "coordinateSystem": "WGS84",
+            "latitude": 52.24539,
+            "longitude": 0.14954
+          }
+        }
+      },
+      "type": "carPark",
+      "capacity": [],
+      "openingHours": [],
+      "tariff": [],
+      "payablePerApp": false,
+      "timeTransfer": false,
+      "withParcoServiceFee": true,
+      "waitingPeriod": 0,
+      "operationalStatus": false,
+      "publicTransportStops": 0,
+      "pgsID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2",
+      "objectID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2_38bb8c0b-fb6f-4021-a8a0-788e81f2883b",
+      "name": "Milton P+R"
+    },
+    {
+      "location": {
+        "point": {
+          "coordinates": {
+            "coordinateSystem": "WGS84",
+            "latitude": 52.20636,
+            "longitude": 0.13403
+          }
+        }
+      },
+      "type": "carPark",
+      "capacity": [],
+      "openingHours": [],
+      "tariff": [],
+      "payablePerApp": false,
+      "timeTransfer": false,
+      "withParcoServiceFee": true,
+      "waitingPeriod": 0,
+      "operationalStatus": false,
+      "publicTransportStops": 0,
+      "pgsID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2",
+      "objectID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2_8e49b702-01cb-4370-b3b7-1f437d4f4821",
+      "name": "Grafton East"
+    },
+    {
+      "location": {
+        "point": {
+          "coordinates": {
+            "coordinateSystem": "WGS84",
+            "latitude": 52.20719,
+            "longitude": 0.13491
+          }
+        }
+      },
+      "type": "carPark",
+      "capacity": [],
+      "openingHours": [],
+      "tariff": [],
+      "payablePerApp": false,
+      "timeTransfer": false,
+      "withParcoServiceFee": true,
+      "waitingPeriod": 0,
+      "operationalStatus": false,
+      "publicTransportStops": 0,
+      "pgsID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2",
+      "objectID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2_8d2130af-2afb-4f09-b872-427c0873eba6",
+      "name": "Grafton West"
+    },
+    {
+      "location": {
+        "point": {
+          "coordinates": {
+            "coordinateSystem": "WGS84",
+            "latitude": 52.33114,
+            "longitude": -0.1806
+          }
+        }
+      },
+      "type": "carPark",
+      "capacity": [],
+      "openingHours": [],
+      "tariff": [],
+      "payablePerApp": false,
+      "timeTransfer": false,
+      "withParcoServiceFee": true,
+      "waitingPeriod": 0,
+      "operationalStatus": false,
+      "publicTransportStops": 0,
+      "pgsID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2",
+      "objectID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2_2ac3b89d-25d0-4447-a517-07811af49aa9",
+      "name": "Huntingdon Sainsburys"
+    },
+    {
+      "location": {
+        "point": {
+          "coordinates": {
+            "coordinateSystem": "WGS84",
+            "latitude": 52.1696,
+            "longitude": 0.16011
+          }
+        }
+      },
+      "type": "carPark",
+      "capacity": [],
+      "openingHours": [],
+      "tariff": [],
+      "payablePerApp": false,
+      "timeTransfer": false,
+      "withParcoServiceFee": true,
+      "waitingPeriod": 0,
+      "operationalStatus": false,
+      "publicTransportStops": 0,
+      "pgsID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2",
+      "objectID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2_9e7125c0-d28c-4837-a0d6-8ddaccc4decf",
+      "name": "Babraham P+R"
+    },
+    {
+      "location": {
+        "point": {
+          "coordinates": {
+            "coordinateSystem": "WGS84",
+            "latitude": 52.33085,
+            "longitude": -0.17427
+          }
+        }
+      },
+      "type": "carPark",
+      "capacity": [],
+      "openingHours": [],
+      "tariff": [],
+      "payablePerApp": false,
+      "timeTransfer": false,
+      "withParcoServiceFee": true,
+      "waitingPeriod": 0,
+      "operationalStatus": false,
+      "publicTransportStops": 0,
+      "pgsID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2",
+      "objectID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2_1e8f753e-f9ae-4b9c-8a0f-d673f9fb6644",
+      "name": "Riverside Long Stay"
+    },
+    {
+      "location": {
+        "point": {
+          "coordinates": {
+            "coordinateSystem": "WGS84",
+            "latitude": 52.21365,
+            "longitude": 0.1833
+          }
+        }
+      },
+      "type": "carPark",
+      "capacity": [],
+      "openingHours": [],
+      "tariff": [],
+      "payablePerApp": false,
+      "timeTransfer": false,
+      "withParcoServiceFee": true,
+      "waitingPeriod": 0,
+      "operationalStatus": false,
+      "publicTransportStops": 0,
+      "pgsID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2",
+      "objectID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2_cf6c84c8-35e7-40e8-8c05-0ffed6719e01",
+      "name": "Newmarket Rd Rear"
+    },
+    {
+      "location": {
+        "point": {
+          "coordinates": {
+            "coordinateSystem": "WGS84",
+            "latitude": 52.21181,
+            "longitude": 0.18293
+          }
+        }
+      },
+      "type": "carPark",
+      "capacity": [],
+      "openingHours": [],
+      "tariff": [],
+      "payablePerApp": false,
+      "timeTransfer": false,
+      "withParcoServiceFee": true,
+      "waitingPeriod": 0,
+      "operationalStatus": false,
+      "publicTransportStops": 0,
+      "pgsID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2",
+      "objectID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2_323c07ff-3c1f-4f80-9623-6a60f946e9b5",
+      "name": "Newmarket Rd Front"
+    },
+    {
+      "location": {
+        "point": {
+          "coordinates": {
+            "coordinateSystem": "WGS84",
+            "latitude": 52.2092,
+            "longitude": 0.11919
+          }
+        }
+      },
+      "type": "carPark",
+      "capacity": [],
+      "openingHours": [],
+      "tariff": [],
+      "payablePerApp": false,
+      "timeTransfer": false,
+      "withParcoServiceFee": true,
+      "waitingPeriod": 0,
+      "operationalStatus": false,
+      "publicTransportStops": 0,
+      "pgsID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2",
+      "objectID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2_b61c0d9a-8bb8-4fb4-80bb-634b4ae9a8a6",
+      "name": "Park street"
+    },
+    {
+      "location": {
+        "point": {
+          "coordinates": {
+            "coordinateSystem": "WGS84",
+            "latitude": 52.32082,
+            "longitude": -0.06477
+          }
+        }
+      },
+      "type": "carPark",
+      "capacity": [],
+      "openingHours": [],
+      "tariff": [],
+      "payablePerApp": false,
+      "timeTransfer": false,
+      "withParcoServiceFee": true,
+      "waitingPeriod": 0,
+      "operationalStatus": false,
+      "publicTransportStops": 0,
+      "pgsID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2",
+      "objectID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2_7f38c370-b7dc-4413-ac13-1524cdcc46cb",
+      "name": "St Ives P&R"
+    },
+    {
+      "location": {
+        "point": {
+          "coordinates": {
+            "coordinateSystem": "WGS84",
+            "latitude": 52.21486,
+            "longitude": 0.08422
+          }
+        }
+      },
+      "type": "carPark",
+      "capacity": [],
+      "openingHours": [],
+      "tariff": [],
+      "payablePerApp": false,
+      "timeTransfer": false,
+      "withParcoServiceFee": true,
+      "waitingPeriod": 0,
+      "operationalStatus": false,
+      "publicTransportStops": 0,
+      "pgsID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2",
+      "objectID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2_d19a4e16-e9db-44fc-adfd-5f0242f70805",
+      "name": "Madingley P+R"
+    },
+    {
+      "location": {
+        "point": {
+          "coordinates": {
+            "coordinateSystem": "WGS84",
+            "latitude": 52.20395,
+            "longitude": 0.12106
+          }
+        }
+      },
+      "type": "carPark",
+      "capacity": [],
+      "openingHours": [],
+      "tariff": [],
+      "payablePerApp": false,
+      "timeTransfer": false,
+      "withParcoServiceFee": true,
+      "waitingPeriod": 0,
+      "operationalStatus": false,
+      "publicTransportStops": 0,
+      "pgsID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2",
+      "objectID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2_776bfcc8-c3c3-4bc3-bf0f-1a981ed6a1c3",
+      "name": "Grand Arcade"
+    },
+    {
+      "location": {
+        "point": {
+          "coordinates": {
+            "coordinateSystem": "WGS84",
+            "latitude": 52.29096,
+            "longitude": 0.05431
+          }
+        }
+      },
+      "type": "carPark",
+      "capacity": [],
+      "openingHours": [],
+      "tariff": [],
+      "payablePerApp": false,
+      "timeTransfer": false,
+      "withParcoServiceFee": true,
+      "waitingPeriod": 0,
+      "operationalStatus": false,
+      "publicTransportStops": 0,
+      "pgsID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2",
+      "objectID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2_b19ed056-0c8a-4c36-8e3f-d70e67e3d469",
+      "name": "Longstanton P&R"
+    },
+    {
+      "location": {
+        "point": {
+          "coordinates": {
+            "coordinateSystem": "WGS84",
+            "latitude": 52.16721,
+            "longitude": 0.10683
+          }
+        }
+      },
+      "type": "carPark",
+      "capacity": [],
+      "openingHours": [],
+      "tariff": [],
+      "payablePerApp": false,
+      "timeTransfer": false,
+      "withParcoServiceFee": true,
+      "waitingPeriod": 0,
+      "operationalStatus": false,
+      "publicTransportStops": 0,
+      "pgsID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2",
+      "objectID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2_36e8d9ab-8fcc-458d-b457-8e2c1fdbc5d4",
+      "name": "Trumpington P+R"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+
+using GIT BASH
+
+ curl --location --request POST 'https://sso.swarco.com/auth/realms/swarco/protocol/openid-connect/token' --header 'Content-Type: application/x-www-form-urlencoded' --data-urlencode 'grant_type=password' --data-urlencode 'client_id=swarco.ui.base' --data-urlencode 'username=cambridge_smi@swarco.com' --data-urlencode 'password=sNeX1Hxm2H'
+
+
+
+{"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJUUnUyTjV5LUkySEllU3FETXZTQ3pvRHJqcEZiSDFMXzBJT3Uwc3B0RE5zIn0.eyJ
+leHAiOjE3MzYxNzMwNDEsImlhdCI6MTczNjE2NTg0MSwianRpIjoiZDlkODEyMjUtZTRmMi00ZGYzLTg4NDMtNThlNTFlNzI4YmY1IiwiaXNzIjoiaHR0cHM6Ly9zc28uc3d
+hcmNvLmNvbS9hdXRoL3JlYWxtcy9zd2FyY28iLCJhdWQiOlsic3dhcmNvLmNvcmUuYXBpZ3ciLCJzd2FyY28ucGdzLnNtaS52OCIsImFjY291bnQiXSwic3ViIjoiNTkxMmQ
+wZjMtNjFlYS00NTI2LTgxZmMtYmE1MTE3YjJhZDFhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoic3dhcmNvLnVpLmJhc2UiLCJzZXNzaW9uX3N0YXRlIjoiYWRmZjQ3OWUtYjc
+wYS00ODMwLTk2YzgtOTgyZTc0Y2NhOWZjIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHBzOi8vbXljaXR5LnN3YXJjby5jb20iLCJodHRwczovL2dlY2tvLm15Y2l0eS5zd2F
+yY28uY29tIiwiaHR0cHM6Ly9tb25pdG9yaW5nLm15Y2l0eS5zd2FyY28uY29tIiwiaHR0cHM6Ly9nZWNrby5zd2FyY28uY29tIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI
+6WyJncm91cHMvQ0FNQlJJREdFQ0MgU01JIiwiZGVmYXVsdC1yb2xlcy1zd2FyY28iLCJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9
+hY2Nlc3MiOnsic3dhcmNvLnBncy5zbWkudjgiOnsicm9sZXMiOlsic21pLXJlYWQiLCJhZG1pbi1hY2Nlc3MiXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY29
+1bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoiZW1haWwgcHJvZmlsZSIsInNpZCI6ImFkZmY0NzllLWI3MGEtNDgzMC05NmM
+4LTk4MmU3NGNjYTlmYyIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwidGVuYW50SWQiOiI1ZmY4NDAxYS0wODVmLTQxYmEtOWI2MS1lODJiYTE1NWQ3NzkiLCJuYW1lIjoiY2F
+tYnJpZGdlX3NtaUBzd2FyY28uY29tIGNhbWJyaWRnZV9zbWlAc3dhcmNvLmNvbSIsInByZWZlcnJlZF91c2VybmFtZSI6ImNhbWJyaWRnZV9zbWlAc3dhcmNvLmNvbSIsImx
+vY2FsZSI6ImVuIiwiZ2l2ZW5fbmFtZSI6ImNhbWJyaWRnZV9zbWlAc3dhcmNvLmNvbSIsImZhbWlseV9uYW1lIjoiY2FtYnJpZGdlX3NtaUBzd2FyY28uY29tIiwiZW1haWw
+iOiJjYW1icmlkZ2Vfc21pQHN3YXJjby5jb20ifQ.DyV1lGtEAQRF8tgVsLp_W_v6dC2ZM3tvju6gRebUDHGbjhKN03dYBrpH3MbFrKWCnxfrZSAPcBRVsgvg4TbTaOOiRCtO
+NnLzn8Xb_Oq5UagCalgJ-qZ_b-fbvwfL8xOAuGwiTHRqguXHemukYb--if5GSyCuQ807laubR7fubL_-kQaG9K-qg9toUw9WKMUy6Fh-VttPBRcA2ojI7SbKvypGgxKTj1jp
+MPOezaiDVjB88vBCuasW7WsukgEWV4VLbamZRlgOYdwOo7DnBUNKlPactYfeBDOf3hCOs1o8CsBjs6ROre52tVFh_UAtP1UTxZ9cFT11AVoKRC9rRYVUyQ","expires_in"
+:7200,"refresh_expires_in":7200,"refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5Yzk3OTA3YS02ZjJkLTQzOTctYWZkMC0
+3NjY5OTczNmQ2OGEifQ.eyJleHAiOjE3MzYxNzMwNDEsImlhdCI6MTczNjE2NTg0MSwianRpIjoiZTcwM2NlMTYtZTJhNi00MTM1LWFlZDItMTdiZDMzNTQ3MTVjIiwiaXNz
+IjoiaHR0cHM6Ly9zc28uc3dhcmNvLmNvbS9hdXRoL3JlYWxtcy9zd2FyY28iLCJhdWQiOiJodHRwczovL3Nzby5zd2FyY28uY29tL2F1dGgvcmVhbG1zL3N3YXJjbyIsInN1
+YiI6IjU5MTJkMGYzLTYxZWEtNDUyNi04MWZjLWJhNTExN2IyYWQxYSIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJzd2FyY28udWkuYmFzZSIsInNlc3Npb25fc3RhdGUiOiJh
+ZGZmNDc5ZS1iNzBhLTQ4MzAtOTZjOC05ODJlNzRjY2E5ZmMiLCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiJhZGZmNDc5ZS1iNzBhLTQ4MzAtOTZjOC05ODJlNzRj
+Y2E5ZmMifQ.z3zjXsFioXjphFyIK2aEx4jFiZyLS_xVAPvrFRaVkE8","token_type":"Bearer","not-before-policy":0,"session_state":"adff479e-b70a-4
+830-96c8-982e74cca9fc","scope":"email profile"}
+
+
+
+
+
+
+curl -X GET -H "Content-Type: application/json" -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJUUnUyTjV5LUkySEllU3FETXZTQ3pvRHJqcEZiSDFMXzBJT3Uwc3B0RE5zIn0.eyJleHAiOjE3MzYxNzMwNDEsImlhdCI6MTczNjE2NTg0MSwianRpIjoiZDlkODEyMjUtZTRmMi00ZGYzLTg4NDMtNThlNTFlNzI4YmY1IiwiaXNzIjoiaHR0cHM6Ly9zc28uc3dhcmNvLmNvbS9hdXRoL3JlYWxtcy9zd2FyY28iLCJhdWQiOlsic3dhcmNvLmNvcmUuYXBpZ3ciLCJzd2FyY28ucGdzLnNtaS52OCIsImFjY291bnQiXSwic3ViIjoiNTkxMmQwZjMtNjFlYS00NTI2LTgxZmMtYmE1MTE3YjJhZDFhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoic3dhcmNvLnVpLmJhc2UiLCJzZXNzaW9uX3N0YXRlIjoiYWRmZjQ3OWUtYjcwYS00ODMwLTk2YzgtOTgyZTc0Y2NhOWZjIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHBzOi8vbXljaXR5LnN3YXJjby5jb20iLCJodHRwczovL2dlY2tvLm15Y2l0eS5zd2FyY28uY29tIiwiaHR0cHM6Ly9tb25pdG9yaW5nLm15Y2l0eS5zd2FyY28uY29tIiwiaHR0cHM6Ly9nZWNrby5zd2FyY28uY29tIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJncm91cHMvQ0FNQlJJREdFQ0MgU01JIiwiZGVmYXVsdC1yb2xlcy1zd2FyY28iLCJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsic3dhcmNvLnBncy5zbWkudjgiOnsicm9sZXMiOlsic21pLXJlYWQiLCJhZG1pbi1hY2Nlc3MiXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoiZW1haWwgcHJvZmlsZSIsInNpZCI6ImFkZmY0NzllLWI3MGEtNDgzMC05NmM4LTk4MmU3NGNjYTlmYyIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwidGVuYW50SWQiOiI1ZmY4NDAxYS0wODVmLTQxYmEtOWI2MS1lODJiYTE1NWQ3NzkiLCJuYW1lIjoiY2FtYnJpZGdlX3NtaUBzd2FyY28uY29tIGNhbWJyaWRnZV9zbWlAc3dhcmNvLmNvbSIsInByZWZlcnJlZF91c2VybmFtZSI6ImNhbWJyaWRnZV9zbWlAc3dhcmNvLmNvbSIsImxvY2FsZSI6ImVuIiwiZ2l2ZW5fbmFtZSI6ImNhbWJyaWRnZV9zbWlAc3dhcmNvLmNvbSIsImZhbWlseV9uYW1lIjoiY2FtYnJpZGdlX3NtaUBzd2FyY28uY29tIiwiZW1haWwiOiJjYW1icmlkZ2Vfc21pQHN3YXJjby5jb20ifQ.DyV1lGtEAQRF8tgVsLp_W_v6dC2ZM3tvju6gRebUDHGbjhKN03dYBrpH3MbFrKWCnxfrZSAPcBRVsgvg4TbTaOOiRCtONnLzn8Xb_Oq5UagCalgJ-qZ_b-fbvwfL8xOAuGwiTHRqguXHemukYb--if5GSyCuQ807laubR7fubL_-kQaG9K-qg9toUw9WKMUy6Fh-VttPBRcA2ojI7SbKvypGgxKTj1jpMPOezaiDVjB88vBCuasW7WsukgEWV4VLbamZRlgOYdwOo7DnBUNKlPactYfeBDOf3hCOs1o8CsBjs6ROre52tVFh_UAtP1UTxZ9cFT11AVoKRC9rRYVUyQ" "https://mycity.swarco.com/api/swarco.pgs.smi.v8/getDynamicPOIDataByPgs/CLD_PGS_d4cca5b5-5903-41bb-bfb0-fbec919c42fb"
+
+
+
+{
+  "total": 5,
+  "dynamicPOIData": [
+    {
+      "timeStamp": "2025-01-06T12:15:55.000Z",
+      "occupancyTotal": [
+        {
+          "parkingSpaceType": "total",
+          "capacity": 188,
+          "vacantSpaces": 50,
+          "occupiedSpaces": 138,
+          "colourIndicator": "green"
+        },
+        {
+          "parkingSpaceType": "shortterm",
+          "capacity": 188,
+          "vacantSpaces": 50,
+          "occupiedSpaces": 138,
+          "colourIndicator": "green"
+        }
+      ],
+      "objectID": "CLD_PGS_d4cca5b5-5903-41bb-bfb0-fbec919c42fb_cdd376eb-07cd-414b-8aa1-5b9ab10a541b",
+      "name": "Highfield Campus: Physics Car Park"
+    },
+    {
+      "timeStamp": "2025-01-06T12:13:05.000Z",
+      "occupancyTotal": [
+        {
+          "parkingSpaceType": "total",
+          "capacity": 331,
+          "vacantSpaces": 65,
+          "occupiedSpaces": 266,
+          "colourIndicator": "green"
+        },
+        {
+          "parkingSpaceType": "shortterm",
+          "capacity": 331,
+          "vacantSpaces": 65,
+          "occupiedSpaces": 266,
+          "colourIndicator": "green"
+        }
+      ],
+      "objectID": "CLD_PGS_d4cca5b5-5903-41bb-bfb0-fbec919c42fb_70db91eb-0dae-44ad-a39d-93ea6dfc67d8",
+      "name": "Highfield Campus: Hampton Car Park"
+    },
+    {
+      "timeStamp": "2025-01-06T12:10:51.000Z",
+      "occupancyTotal": [
+        {
+          "parkingSpaceType": "total",
+          "capacity": 245,
+          "vacantSpaces": 216,
+          "occupiedSpaces": 29,
+          "colourIndicator": "green"
+        },
+        {
+          "parkingSpaceType": "shortterm",
+          "capacity": 245,
+          "vacantSpaces": 216,
+          "occupiedSpaces": 29,
+          "colourIndicator": "green"
+        }
+      ],
+      "objectID": "CLD_PGS_d4cca5b5-5903-41bb-bfb0-fbec919c42fb_b73ea09b-0bb6-420b-b730-0ae7a5fcdc2b",
+      "name": "Avenue Campus"
+    },
+    {
+      "timeStamp": "2025-01-06T12:14:10.000Z",
+      "occupancyTotal": [
+        {
+          "parkingSpaceType": "total",
+          "capacity": 387,
+          "vacantSpaces": 266,
+          "occupiedSpaces": 121,
+          "colourIndicator": "green"
+        },
+        {
+          "parkingSpaceType": "shortterm",
+          "capacity": 387,
+          "vacantSpaces": 266,
+          "occupiedSpaces": 121,
+          "colourIndicator": "green"
+        }
+      ],
+      "objectID": "CLD_PGS_d4cca5b5-5903-41bb-bfb0-fbec919c42fb_5a330799-bfd3-41fd-adc7-1b1cd5d96088",
+      "name": "Boldrewood Innovation Campus"
+    },
+    {
+      "timeStamp": "2025-01-06T12:12:28.000Z",
+      "occupancyTotal": [
+        {
+          "parkingSpaceType": "total",
+          "capacity": 130,
+          "vacantSpaces": 0,
+          "occupiedSpaces": 142,
+          "colourIndicator": "red"
+        },
+        {
+          "parkingSpaceType": "shortterm",
+          "capacity": 130,
+          "vacantSpaces": 0,
+          "occupiedSpaces": 142,
+          "colourIndicator": "red"
+        }
+      ],
+      "objectID": "CLD_PGS_d4cca5b5-5903-41bb-bfb0-fbec919c42fb_b28b55ec-f556-4a72-9fae-81ae6aab9d18",
+      "name": "Highfield Campus: South Broadlands Car Park"
+    }
+  ]
+}
