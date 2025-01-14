@@ -3,6 +3,7 @@
 
 ## Get token
 https://sso.swarco.com/auth/realms/swarco/protocol/openid-connect/token
+```json
 {
     'access_token': 'eyJhbGc...MsAalJm3XWhfzeyyg',
     'expires_in': 7200,
@@ -13,9 +14,75 @@ https://sso.swarco.com/auth/realms/swarco/protocol/openid-connect/token
     'session_state': '7480496d-cb17-4f73-b98b-2f67fde0a166',
     'scope': 'email profile'
 }
+```
 
+## Dynamic data example
+```json
+{
+  "total": 16,
+  "dynamicPOIData": [
+    {
+      "timeStamp": "2025-01-14T09:07:16.000Z",
+      "occupancyTotal": [
+        {
+          "parkingSpaceType": "total",
+          "capacity": 515,
+          "vacantSpaces": 335,
+          "occupiedSpaces": 180,
+          "colourIndicator": "green"
+        },
+        {
+          "parkingSpaceType": "shortterm",
+          "capacity": 515,
+          "vacantSpaces": 335,
+          "occupiedSpaces": 180,
+          "colourIndicator": "green"
+        }
+      ],
+      "objectID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2_efb3ca43-7c27-40e9-b1f4-2ddbdd60a600",
+      "name": "Queen Anne"
+    },
+    ...
+  ]
+}
+```
+
+## Static data example
+```json
+{
+  "total": 16,
+  "staticPOIData": [
+    {
+      "location": {
+        "point": {
+          "coordinates": {
+            "coordinateSystem": "WGS84",
+            "latitude": 52.20098,
+            "longitude": 0.13055
+          }
+        }
+      },
+      "type": "carPark",
+      "capacity": [],
+      "openingHours": [],
+      "tariff": [],
+      "payablePerApp": false,
+      "timeTransfer": false,
+      "withParcoServiceFee": true,
+      "waitingPeriod": 0,
+      "operationalStatus": false,
+      "publicTransportStops": 0,
+      "context": [],
+      "pgsID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2",
+      "objectID": "CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2_efb3ca43-7c27-40e9-b1f4-2ddbdd60a600",
+      "name": "Queen Anne"
+    },
+    ...
+  ]
+}
 ## Get Dynamic data
 https://mycity.swarco.com/api/swarco.pgs.smi.v8/getDynamicPOIDataByPgs/CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2
+```json
 {
   "total": 16,
   "dynamicPOIData": [
@@ -357,8 +424,11 @@ https://mycity.swarco.com/api/swarco.pgs.smi.v8/getDynamicPOIDataByPgs/CLD_PGS_a
     }
   ]
 }
+```
+
 ## Get Static data
 https://mycity.swarco.com/api/swarco.pgs.smi.v8/getStaticPOIDataByPgs/CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2
+```json
 {
   "total": 16,
   "staticPOIData": [
@@ -764,3 +834,4 @@ https://mycity.swarco.com/api/swarco.pgs.smi.v8/getStaticPOIDataByPgs/CLD_PGS_a8
     }
   ]
 }
+```
