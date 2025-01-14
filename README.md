@@ -5,14 +5,14 @@
 https://sso.swarco.com/auth/realms/swarco/protocol/openid-connect/token
 ```json
 {
-    'access_token': 'eyJhbGc...MsAalJm3XWhfzeyyg',
-    'expires_in': 7200,
-    'refresh_expires_in': 7200,
-    'refresh_token': 'eyJhbGc...Nt1U',
-    'token_type': 'Bearer',
-    'not-before-policy': 0,
-    'session_state': '7480496d-cb17-4f73-b98b-2f67fde0a166',
-    'scope': 'email profile'
+    "access_token": "eyJhbGc...MsAalJm3XWhfzeyyg",
+    "expires_in": 7200,
+    "refresh_expires_in": 7200,
+    "refresh_token": "eyJhbGc...Nt1U",
+    "token_type": "Bearer",
+    "not-before-policy": 0,
+    "session_state": "7480496d-cb17-4f73-b98b-2f67fde0a166",
+    "scope": "email profile"
 }
 ```
 
