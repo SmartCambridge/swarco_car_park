@@ -80,6 +80,7 @@ https://sso.swarco.com/auth/realms/swarco/protocol/openid-connect/token
     ...
   ]
 }
+```
 ## Get Dynamic data
 https://mycity.swarco.com/api/swarco.pgs.smi.v8/getDynamicPOIDataByPgs/CLD_PGS_a868a172-e1d9-4087-80ca-814bdd9a10c2
 ```json
